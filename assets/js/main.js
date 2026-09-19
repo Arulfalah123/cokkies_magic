@@ -106,7 +106,7 @@
   document.querySelectorAll(".product__btn").forEach(function (button) {
     var original = button.textContent;
     button.addEventListener("click", function () {
-      button.textContent = "Masuk keranjang";
+      button.textContent = "Masuk";
       button.classList.add("is-added");
       window.setTimeout(function () {
         button.textContent = original;
@@ -126,12 +126,12 @@
       var valid = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email.value.trim());
 
       if (!valid) {
-        note.textContent = "Sepertinya alamat emailnya kurang tepat. Coba cek lagi ya.";
+        note.textContent = "Emailnya sepertinya belum benar. Coba cek lagi.";
         email.focus();
         return;
       }
 
-      note.textContent = "Email kamu sudah masuk daftar. Kabar adonan baru kami kirim setiap Jumat.";
+      note.textContent = "Sip, email kamu sudah masuk daftar. Kabar menu baru kami kirim tiap Jumat.";
       form.reset();
     });
   }

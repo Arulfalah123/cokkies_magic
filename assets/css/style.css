@@ -577,8 +577,15 @@ h1, h2, h3 {
 .product__foot h3 {
   font-size: 15px;
   text-transform: uppercase;
+  line-height: 1.15;
 }
-.product__price { font-weight: 700; font-size: 14px; color: var(--brown-soft); }
+.product__price {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--brown-soft);
+  white-space: nowrap;
+  flex: none;
+}
 
 .product__btn {
   border: 2px solid var(--line);
