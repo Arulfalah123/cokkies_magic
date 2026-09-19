@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Chocolate chip cookie">
+  <defs>
+    <radialGradient id="dough" cx="36%" cy="30%" r="78%">
+      <stop offset="0" stop-color="#F0C078"/>
+      <stop offset="0.6" stop-color="#D79A4C"/>
+      <stop offset="1" stop-color="#B0702A"/>
+    </radialGradient>
+    <radialGradient id="chip" cx="35%" cy="28%" r="80%">
+      <stop offset="0" stop-color="#6B3A18"/>
+      <stop offset="1" stop-color="#3A1C08"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <circle cx="200" cy="205" r="158" fill="#9A5F1C"/>
+    <circle cx="176" cy="88" r="34" fill="#9A5F1C"/>
+    <circle cx="308" cy="140" r="30" fill="#9A5F1C"/>
+    <circle cx="322" cy="262" r="32" fill="#9A5F1C"/>
+    <circle cx="210" cy="356" r="30" fill="#9A5F1C"/>
+    <circle cx="82" cy="282" r="30" fill="#9A5F1C"/>
+    <circle cx="86" cy="146" r="28" fill="#9A5F1C"/>
+    <circle cx="200" cy="198" r="155" fill="url(#dough)"/>
+    <circle cx="176" cy="82" r="32" fill="url(#dough)"/>
+    <circle cx="306" cy="134" r="28" fill="url(#dough)"/>
+    <circle cx="320" cy="256" r="30" fill="url(#dough)"/>
+    <circle cx="208" cy="348" r="28" fill="url(#dough)"/>
+    <circle cx="82" cy="276" r="28" fill="url(#dough)"/>
+    <circle cx="86" cy="140" r="26" fill="url(#dough)"/>
+  </g>
+  <g fill="url(#chip)">
+    <ellipse cx="140" cy="130" rx="27" ry="22" transform="rotate(-18 140 130)"/>
+    <ellipse cx="250" cy="112" rx="22" ry="18" transform="rotate(24 250 112)"/>
+    <ellipse cx="196" cy="206" rx="30" ry="24" transform="rotate(-8 196 206)"/>
+    <ellipse cx="292" cy="212" rx="24" ry="19" transform="rotate(14 292 212)"/>
+    <ellipse cx="112" cy="232" rx="23" ry="18" transform="rotate(32 112 232)"/>
+    <ellipse cx="172" cy="306" rx="26" ry="20" transform="rotate(-24 172 306)"/>
+    <ellipse cx="262" cy="310" rx="20" ry="16" transform="rotate(8 262 310)"/>
+    <ellipse cx="62" cy="168" rx="17" ry="14" transform="rotate(-12 62 168)"/>
+    <ellipse cx="338" cy="148" rx="15" ry="12" transform="rotate(18 338 148)"/>
+  </g>
+  <g fill="#F6D9A8" opacity="0.55">
+    <circle cx="228" cy="158" r="7"/>
+    <circle cx="150" cy="248" r="6"/>
+    <circle cx="300" cy="270" r="5"/>
+    <circle cx="96" cy="196" r="5"/>
+  </g>
+</svg>

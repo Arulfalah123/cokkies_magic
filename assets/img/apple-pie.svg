@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="Apple pie">
+  <g stroke="#8E5416" stroke-width="5" stroke-linejoin="round">
+    <ellipse cx="150" cy="200" rx="118" ry="52" fill="#D89346"/>
+    <path d="M32 200v-14c0-38 52-68 118-68s118 30 118 68v14" fill="#F0C179"/>
+    <ellipse cx="150" cy="186" rx="118" ry="52" fill="#EFC989"/>
+    <ellipse cx="150" cy="186" rx="88" ry="36" fill="#C86A2C"/>
+  </g>
+  <g stroke="#8E5416" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M86 172c34-16 94-16 128 0"/><path d="M92 196c34 14 88 14 122 0"/>
+    <path d="M124 156c-8 20-8 40 0 60"/><path d="M176 156c8 20 8 40 0 60"/>
+  </g>
+</svg>

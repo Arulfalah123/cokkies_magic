@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="Caramel cupcake">
+  <g stroke="#8E5416" stroke-width="5" stroke-linejoin="round">
+    <path d="M96 168h108l-14 96a16 16 0 0 1-16 14h-48a16 16 0 0 1-16-14z" fill="#E9A94C"/>
+    <path d="M150 52c30 0 46 22 46 44 14 4 24 16 24 32 0 22-18 40-40 40h-60c-22 0-40-18-40-40 0-16 10-28 24-32 0-22 16-44 46-44z" fill="#FBEBD2"/>
+    <path d="M118 168c8 22 20 34 32 34s24-12 32-34" fill="#C0762C"/>
+  </g>
+  <g stroke="#8E5416" stroke-width="4" fill="none">
+    <path d="M124 182v86"/><path d="M152 184v88"/><path d="M180 182v86"/>
+  </g>
+  <circle cx="150" cy="66" r="14" fill="#E45A6E" stroke="#8E5416" stroke-width="5"/>
+</svg>

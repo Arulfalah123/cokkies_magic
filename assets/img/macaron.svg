@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="Macaron">
+  <g stroke="#8E5416" stroke-width="5" stroke-linejoin="round">
+    <path d="M56 130c0-32 42-56 94-56s94 24 94 56c0 14-12 22-28 22H84c-16 0-28-8-28-22z" fill="#F3B7C6"/>
+    <rect x="70" y="146" width="160" height="30" rx="12" fill="#E9A94C"/>
+    <path d="M56 194c0 32 42 56 94 56s94-24 94-56c0-14-12-22-28-22H84c-16 0-28 8-28 22z" fill="#F3B7C6"/>
+  </g>
+  <g fill="#DE8AA0"><circle cx="100" cy="106" r="6"/><circle cx="196" cy="100" r="5"/><circle cx="150" cy="222" r="6"/></g>
+</svg>

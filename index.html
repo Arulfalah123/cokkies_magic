@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Magic Bakery | Flourished Fantasy Bakery</title>
+<meta name="description" content="Artisanal cookies, bread and pastries crafted from scratch every morning. Order fresh batches from Magic Bakery.">
+<link rel="icon" href="assets/img/hero-cookie.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ NAVBAR ============ -->
+<header class="nav" id="top">
+  <div class="container nav__inner">
+    <a class="brand" href="#top">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__name">Magic Bakery</span>
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="Main navigation">
+      <a href="#products">Cake</a>
+      <a href="#bestsellers">Bakery</a>
+      <a href="#about">About Us</a>
+      <a href="#story">Cookies</a>
+      <a class="nav__cta" href="#order">Order Now</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch theme">
+        <span class="icon-btn__dot"></span>
+      </button>
+      <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero__title reveal">
+        <span>Flourished</span>
+        <span>Fantasy Bakery</span>
+      </h1>
+
+      <div class="hero__grid">
+        <div class="hero__col hero__col--left reveal">
+          <p class="hero__lead">
+            Indulge in the timeless tradition of artisanal baking at our establishment, where we take pride in every single batch.
+          </p>
+          <div class="hero__buttons">
+            <a class="btn btn--yellow" href="#order">Order Now</a>
+            <a class="btn btn--ghost" href="#story">Cooking Menu <span class="btn__arrow" aria-hidden="true">&#8599;</span></a>
+          </div>
+          <p class="hero__tag">Artisanal Bread and Cookies Crafted from Scratch.</p>
+        </div>
+
+        <div class="hero__col hero__col--center reveal">
+          <div class="hero__photo">
+            <img src="assets/img/hero-cookie.svg" alt="Chocolate chip cookie held up in the air" width="560" height="560">
+          </div>
+        </div>
+
+        <div class="hero__col hero__col--right reveal">
+          <p class="hero__choose">Choose Us?</p>
+          <ul class="pills">
+            <li class="pill pill--pink">Freshness</li>
+            <li class="pill pill--orange">Crunchy</li>
+            <li class="pill pill--green">Fresh</li>
+            <li class="pill pill--blue">100% Organic</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span class="marquee__group">
+        <em>Cookies</em><i>&#10022;</i><em>Bratzel</em><i>&#10022;</i><em>Cake</em><i>&#10022;</i>
+        <em>Pastries</em><i>&#10022;</i><em>Croissant</em><i>&#10022;</i><em>Bagel</em><i>&#10022;</i>
+      </span>
+      <span class="marquee__group">
+        <em>Cookies</em><i>&#10022;</i><em>Bratzel</em><i>&#10022;</i><em>Cake</em><i>&#10022;</i>
+        <em>Pastries</em><i>&#10022;</i><em>Croissant</em><i>&#10022;</i><em>Bagel</em><i>&#10022;</i>
+      </span>
+    </div>
+  </div>
+
+  <!-- ============ BEST BAKED PRODUCTS ============ -->
+  <section class="section products" id="products">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title reveal">Our Best Baked<br>Products</h2>
+        <a class="round-link reveal" href="#story">
+          <span>Cooking Video</span>
+          <span class="round-link__circle" aria-hidden="true">&#8599;</span>
+        </a>
+      </div>
+
+      <div class="products__grid">
+        <figure class="card card--photo reveal">
+          <img src="assets/img/cookie-stack.svg" alt="Stack of freshly baked chocolate chip cookies" width="520" height="520">
+          <span class="confetti confetti--a" aria-hidden="true"></span>
+          <span class="confetti confetti--b" aria-hidden="true"></span>
+        </figure>
+
+        <div class="products__copy reveal">
+          <p>
+            Providing a wide range of nutrients, vitamins and minerals that are vital for overall health and well being.
+            They come in various shapes and sizes, baked fresh every single morning.
+          </p>
+          <div class="rating">
+            <strong class="rating__score">4.5</strong>
+            <span class="rating__stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            <span class="rating__meta">Based on 4.125 reviews</span>
+          </div>
+        </div>
+
+        <figure class="card card--video reveal">
+          <img src="assets/img/cookie-tray.svg" alt="Tray of warm cookies straight out of the oven" width="520" height="380">
+          <button class="play" type="button" aria-label="Play baking video">
+            <span aria-hidden="true">&#9654;</span>
+          </button>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BEST SELLERS ============ -->
+  <section class="section sellers" id="bestsellers">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title reveal">Our Best Sellers</h2>
+        <div class="arrows reveal">
+          <button class="arrow" type="button" id="prevBtn" aria-label="Previous products">&#8592;</button>
+          <button class="arrow" type="button" id="nextBtn" aria-label="Next products">&#8594;</button>
+        </div>
+      </div>
+
+      <p class="sellers__lead reveal">
+        Freshly baked bread to decadent pastries, each item is crafted with care and expertise to delight your taste buds.
+        Discover why these favourites keep our regulars coming back every week.
+      </p>
+
+      <div class="slider" id="slider">
+        <article class="product">
+          <div class="product__media product__media--cream">
+            <img src="assets/img/croissant.svg" alt="Butter croissant" width="300" height="300" loading="lazy">
+          </div>
+          <div class="product__foot">
+            <h3>Croissant</h3>
+            <span class="product__price">$47.25</span>
+          </div>
+          <button class="product__btn" type="button">Add to cart</button>
+        </article>
+
+        <article class="product product--featured">
+          <div class="product__media product__media--pink">
+            <img src="assets/img/cupcake.svg" alt="Caramel drizzle cupcake" width="300" height="300" loading="lazy">
+          </div>
+          <div class="product__foot">
+            <h3>Plain Cake</h3>
+            <span class="product__price">$53.20</span>
+          </div>
+          <button class="product__btn" type="button">Order Now</button>
+        </article>
+
+        <article class="product">
+          <div class="product__media product__media--yellow">
+            <img src="assets/img/apple-pie.svg" alt="Home style apple pie" width="300" height="300" loading="lazy">
+          </div>
+          <div class="product__foot">
+            <h3>Apple Pie</h3>
+            <span class="product__price">$38.90</span>
+          </div>
+          <button class="product__btn" type="button">Add to cart</button>
+        </article>
+
+        <article class="product">
+          <div class="product__media product__media--mint">
+            <img src="assets/img/brownie.svg" alt="Fudge chocolate brownie" width="300" height="300" loading="lazy">
+          </div>
+          <div class="product__foot">
+            <h3>Fudge Brownie</h3>
+            <span class="product__price">$29.50</span>
+          </div>
+          <button class="product__btn" type="button">Add to cart</button>
+        </article>
+
+        <article class="product">
+          <div class="product__media product__media--lilac">
+            <img src="assets/img/macaron.svg" alt="Pastel macaron" width="300" height="300" loading="lazy">
+          </div>
+          <div class="product__foot">
+            <h3>Macaron Box</h3>
+            <span class="product__price">$61.00</span>
+          </div>
+          <button class="product__btn" type="button">Add to cart</button>
+        </article>
+
+        <article class="product">
+          <div class="product__media product__media--cream">
+            <img src="assets/img/bread.svg" alt="Round sourdough loaf" width="300" height="300" loading="lazy">
+          </div>
+          <div class="product__foot">
+            <h3>Sourdough Loaf</h3>
+            <span class="product__price">$24.75</span>
+          </div>
+          <button class="product__btn" type="button">Add to cart</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STORY / HOW WE BAKE ============ -->
+  <section class="section story" id="story">
+    <div class="container">
+      <h2 class="section__title section__title--center reveal">Baked The Slow Way</h2>
+      <div class="steps">
+        <article class="step reveal">
+          <span class="step__no">01</span>
+          <h3>Mix by hand</h3>
+          <p>Stone milled flour, cultured butter and raw cane sugar folded together in small batches, never by machine alone.</p>
+        </article>
+        <article class="step reveal">
+          <span class="step__no">02</span>
+          <h3>Rest overnight</h3>
+          <p>Every dough sleeps for at least twelve hours in the cold room, so the flavour has time to deepen before it meets heat.</p>
+        </article>
+        <article class="step reveal">
+          <span class="step__no">03</span>
+          <h3>Bake at dawn</h3>
+          <p>Ovens fire up at four in the morning. Whatever lands on the shelf was baked only a few hours before you taste it.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT + STATS ============ -->
+  <section class="section about" id="about">
+    <div class="container about__inner">
+      <div class="about__media reveal">
+        <img src="assets/img/cookie-tray.svg" alt="Assorted cookies cooling on the counter" width="520" height="380">
+      </div>
+      <div class="about__copy reveal">
+        <h2 class="section__title">A Small Kitchen<br>With Big Cravings</h2>
+        <p>
+          We started in a two burner kitchen with one rusty mixer and a stubborn belief that a cookie should taste like
+          someone actually cared. Nine years later the mixer is gone, the belief is not.
+        </p>
+        <ul class="stats">
+          <li><strong>9</strong><span>Years baking</span></li>
+          <li><strong>42</strong><span>Recipes on rotation</span></li>
+          <li><strong>12k</strong><span>Happy regulars</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section quotes">
+    <div class="container">
+      <h2 class="section__title section__title--center reveal">Loved By The Neighbourhood</h2>
+      <div class="quotes__grid">
+        <blockquote class="quote reveal">
+          <p>"The salted chocolate chip is the only thing my daughter will get out of bed for on a Sunday. Worth the queue."</p>
+          <footer><strong>Amelia R.</strong><span>Regular since 2021</span></footer>
+        </blockquote>
+        <blockquote class="quote reveal">
+          <p>"I ordered forty boxes for an office launch. They arrived warm. Nobody talked about the product, only the cookies."</p>
+          <footer><strong>Daniel O.</strong><span>Office manager</span></footer>
+        </blockquote>
+        <blockquote class="quote reveal">
+          <p>"Crisp at the edge, soft in the middle, and it never tastes like it came out of a factory. That is the whole review."</p>
+          <footer><strong>Sinta W.</strong><span>Food writer</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ORDER CTA ============ -->
+  <section class="cta" id="order">
+    <div class="container cta__inner reveal">
+      <h2>Fresh Batch,<br>Every Morning.</h2>
+      <p>Drop your email and we will tell you what comes out of the oven before the shelf empties.</p>
+      <form class="cta__form" id="subscribeForm" novalidate>
+        <label class="sr-only" for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder="you@email.com" required>
+        <button class="btn btn--yellow" type="submit">Notify Me</button>
+      </form>
+      <p class="cta__note" id="formNote" role="status"></p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <p>Magic Bakery<br><small>Flourished Fantasy Bakery</small></p>
+    </div>
+    <nav class="footer__nav" aria-label="Footer navigation">
+      <a href="#products">Products</a>
+      <a href="#bestsellers">Best Sellers</a>
+      <a href="#story">Our Process</a>
+      <a href="#about">About</a>
+    </nav>
+    <p class="footer__meta">
+      Jl. Kue Manis No. 12, Sidoarjo<br>
+      Open 07.00 to 20.00, every day
+    </p>
+  </div>
+  <div class="container footer__bottom">
+    <span>&copy; <span id="year">2026</span> Magic Bakery. All rights reserved.</span>
+    <a href="#top">Back to top &#8593;</a>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
