@@ -1,6 +1,6 @@
 /* =========================================================
-   Magic Bakery - interactions
-   Vanilla JS, no dependencies.
+   Magic Bakery - interaksi halaman
+   JavaScript murni, tanpa dependensi.
    ========================================================= */
 (function () {
   "use strict";
@@ -14,7 +14,7 @@
     }
   };
 
-  /* ---------- Mobile navigation ---------- */
+  /* ---------- Navigasi mobile ---------- */
   var burger = document.getElementById("burger");
   var navLinks = document.getElementById("navLinks");
 
@@ -22,7 +22,7 @@
     burger.addEventListener("click", function () {
       var open = navLinks.classList.toggle("is-open");
       burger.setAttribute("aria-expanded", open ? "true" : "false");
-      burger.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+      burger.setAttribute("aria-label", open ? "Tutup menu" : "Buka menu");
     });
 
     navLinks.addEventListener("click", function (event) {
@@ -33,7 +33,7 @@
     });
   }
 
-  /* ---------- Theme toggle ---------- */
+  /* ---------- Ganti tema ---------- */
   var themeToggle = document.getElementById("themeToggle");
   var savedTheme = store.get("mb-theme");
 
@@ -49,7 +49,7 @@
     });
   }
 
-  /* ---------- Reveal on scroll ---------- */
+  /* ---------- Animasi muncul saat scroll ---------- */
   var revealItems = document.querySelectorAll(".reveal");
 
   if ("IntersectionObserver" in window) {
@@ -69,7 +69,7 @@
     revealItems.forEach(function (item) { item.classList.add("is-visible"); });
   }
 
-  /* ---------- Best sellers slider ---------- */
+  /* ---------- Slider produk paling laris ---------- */
   var slider = document.getElementById("slider");
   var prevBtn = document.getElementById("prevBtn");
   var nextBtn = document.getElementById("nextBtn");
@@ -102,11 +102,11 @@
     updateArrows();
   }
 
-  /* ---------- Add to cart feedback ---------- */
+  /* ---------- Umpan balik tombol keranjang ---------- */
   document.querySelectorAll(".product__btn").forEach(function (button) {
     var original = button.textContent;
     button.addEventListener("click", function () {
-      button.textContent = "Added";
+      button.textContent = "Masuk keranjang";
       button.classList.add("is-added");
       window.setTimeout(function () {
         button.textContent = original;
@@ -115,7 +115,7 @@
     });
   });
 
-  /* ---------- Newsletter form ---------- */
+  /* ---------- Form langganan email ---------- */
   var form = document.getElementById("subscribeForm");
   var note = document.getElementById("formNote");
 
@@ -126,25 +126,25 @@
       var valid = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email.value.trim());
 
       if (!valid) {
-        note.textContent = "That email looks off. Mind checking it again?";
+        note.textContent = "Sepertinya alamat emailnya kurang tepat. Coba cek lagi ya.";
         email.focus();
         return;
       }
 
-      note.textContent = "You are on the list. Warm batch news lands every Friday.";
+      note.textContent = "Email kamu sudah masuk daftar. Kabar adonan baru kami kirim setiap Jumat.";
       form.reset();
     });
   }
 
-  /* ---------- Misc ---------- */
+  /* ---------- Lain lain ---------- */
   var year = document.getElementById("year");
   if (year) { year.textContent = String(new Date().getFullYear()); }
 
   var play = document.querySelector(".play");
   if (play) {
     play.addEventListener("click", function () {
-      play.setAttribute("aria-label", "Video coming soon");
-      play.textContent = "Soon";
+      play.setAttribute("aria-label", "Video segera hadir");
+      play.textContent = "Segera";
       play.style.fontSize = "13px";
     });
   }

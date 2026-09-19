@@ -1,4 +1,4 @@
-# Magic Bakery - Flourished Fantasy Bakery
+# Magic Bakery - Kukis Artisan Langsung Dari Oven
 
 Landing page toko cookies bergaya retro bakery. Dibuat dengan HTML, CSS, dan JavaScript murni tanpa build step, jadi bisa langsung dibuka di browser atau di hosting statis seperti GitHub Pages.
 
@@ -18,13 +18,15 @@ Landing page toko cookies bergaya retro bakery. Dibuat dengan HTML, CSS, dan Jav
 
 1. Navbar sticky dengan menu mobile dan tombol ganti tema
 2. Hero: judul besar, kartu foto kuning, badge alasan memilih
-3. Marquee berjalan (cookies, bratzel, cake, pastries, croissant, bagel)
-4. Our Best Baked Products: kartu foto, rating, kartu video
-5. Our Best Sellers: slider produk dengan tombol panah dan scroll snap
-6. Baked The Slow Way: tiga langkah proses
-7. About dan statistik
-8. Testimoni
-9. CTA newsletter dan footer
+3. Marquee berjalan (kukis, pretzel, kue, pastri, croissant, bagel)
+4. Panggangan Terbaik Kami: kartu foto, rating, kartu video
+5. Paling Laris: slider produk dengan tombol panah dan scroll snap
+6. Dipanggang Dengan Sabar: tiga langkah proses
+7. Tentang Kami dan statistik
+8. Testimoni pelanggan
+9. Ajakan langganan email dan footer
+
+Seluruh copy memakai bahasa Indonesia dan harga dalam rupiah.
 
 ## Cara menjalankan lokal
 
